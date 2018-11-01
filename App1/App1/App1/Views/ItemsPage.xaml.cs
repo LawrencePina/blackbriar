@@ -52,7 +52,7 @@ namespace App1.Views
                 Crashes.TrackError(ex, new Dictionary<string, string>{
         { "Filename", "saved_game001.txt" },
         { "Where", "Reload game" },
-        { "Issue", "Atezzla" + installId.ToString()}
+        { "Issue", "Atezzla boy" + installId.ToString()}
     });
             }
 
