@@ -52,6 +52,8 @@ namespace App1.Views
     });
             }
 
+            Crashes.GenerateTestCrash();
+
         }
 
         async void AddItem_Clicked(object sender, EventArgs e)
