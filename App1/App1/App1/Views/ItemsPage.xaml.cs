@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using App1.Models;
 using App1.Views;
 using App1.ViewModels;
+using Microsoft.AppCenter.Analytics;
 
 namespace App1.Views
 {
@@ -35,6 +36,7 @@ namespace App1.Views
 
             // Manually deselect item.
             ItemsListView.SelectedItem = null;
+            Analytics.TrackEvent("Site visited");
         }
 
         async void AddItem_Clicked(object sender, EventArgs e)
