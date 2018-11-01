@@ -11,6 +11,7 @@ using App1.Models;
 using App1.Views;
 using App1.ViewModels;
 using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace App1.Views
 {
@@ -37,6 +38,17 @@ namespace App1.Views
             // Manually deselect item.
             ItemsListView.SelectedItem = null;
             Analytics.TrackEvent("Site visited - " + item.Text);
+
+            try
+            {
+                int c = 0;
+                int x = 1 / c;
+            }
+            catch (Exception exception)
+            {
+                Crashes.TrackError(exception);
+            }
+
         }
 
         async void AddItem_Clicked(object sender, EventArgs e)
