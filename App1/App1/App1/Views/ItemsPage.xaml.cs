@@ -12,6 +12,7 @@ using App1.Views;
 using App1.ViewModels;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter;
 
 namespace App1.Views
 {
@@ -39,6 +40,9 @@ namespace App1.Views
             ItemsListView.SelectedItem = null;
             Analytics.TrackEvent("Site visited - " + item.Text);
 
+
+            System.Guid? installId = await AppCenter.GetInstallIdAsync();
+
             try
             {
                 throw (new Exception("Sharpe!"));
@@ -48,7 +52,7 @@ namespace App1.Views
                 Crashes.TrackError(ex, new Dictionary<string, string>{
         { "Filename", "saved_game001.txt" },
         { "Where", "Reload game" },
-        { "Issue", "Atezzla" }
+        { "Issue", "Atezzla" + installId.ToString()}
     });
             }
 
