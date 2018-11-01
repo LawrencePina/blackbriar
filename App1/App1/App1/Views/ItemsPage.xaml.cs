@@ -36,7 +36,7 @@ namespace App1.Views
 
             // Manually deselect item.
             ItemsListView.SelectedItem = null;
-            Analytics.TrackEvent("Site visited");
+            Analytics.TrackEvent("Site visited - " + item.Text);
         }
 
         async void AddItem_Clicked(object sender, EventArgs e)
