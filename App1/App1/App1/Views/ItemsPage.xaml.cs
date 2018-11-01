@@ -48,7 +48,7 @@ namespace App1.Views
                 Crashes.TrackError(ex, new Dictionary<string, string>{
         { "Filename", "saved_game001.txt" },
         { "Where", "Reload game" },
-        { "Issue", "Index of available games is corrupted" }
+        { "Issue", "Atezzla" }
     });
             }
 
