@@ -41,12 +41,15 @@ namespace App1.Views
 
             try
             {
-                int c = 0;
-                int x = 1 / c;
+                throw (new Exception("Sharpe!"));
             }
-            catch (Exception exception)
+            catch (Exception ex)
             {
-                Crashes.TrackError(exception);
+                Crashes.TrackError(ex, new Dictionary<string, string>{
+        { "Filename", "saved_game001.txt" },
+        { "Where", "Reload game" },
+        { "Issue", "Index of available games is corrupted" }
+    });
             }
 
         }
