@@ -20,10 +20,20 @@ namespace App1
             MainPage = new MainPage();
         }
 
-        protected override void OnStart()
+        protected async override void OnStart()
         {
             // Handle when your app starts
             AppCenter.Start("ios=4c0a2400-3aab-41bb-8d85-e40a719e6023;" + "uwp={Your UWP App secret here};" + "android={Your Android App secret here}", typeof(Analytics), typeof(Crashes));
+
+            bool isEnabled = await Crashes.IsEnabledAsync();
+
+            Crashes.SendingErrorReport += (sender, e) =>
+            {
+                // Your code, e.g. to present a custom UI.
+
+                Analytics.TrackEvent("Crash!!!");
+            };
+
         }
 
         protected override void OnSleep()
