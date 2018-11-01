@@ -56,7 +56,7 @@ namespace App1.Views
     });
             }
 
-            Crashes.GenerateTestCrash();
+            //Crashes.GenerateTestCrash();
 
         }
 
