@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.iOS", "App1\App1.iOS\App1.iOS.csproj", "{41519D15-FCAA-44FF-B0E9-37E902592C03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1\App1.csproj", "{A3396919-ACEE-4A02-AE55-B3A6900EE20E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App1", "App1\App1\App1.csproj", "{A3396919-ACEE-4A02-AE55-B3A6900EE20E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackBriarExtension", "BlackBriarExtension\BlackBriarExtension.csproj", "{F13CCC61-CD8F-478B-8158-118E5BE5FA88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,16 @@ Global
 		{A3396919-ACEE-4A02-AE55-B3A6900EE20E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{A3396919-ACEE-4A02-AE55-B3A6900EE20E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{A3396919-ACEE-4A02-AE55-B3A6900EE20E}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Debug|iPhone.Build.0 = Debug|iPhone
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Release|iPhone.ActiveCfg = Release|iPhone
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Release|iPhone.Build.0 = Release|iPhone
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{F13CCC61-CD8F-478B-8158-118E5BE5FA88}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
