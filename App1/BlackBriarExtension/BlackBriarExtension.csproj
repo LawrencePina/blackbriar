@@ -77,7 +77,9 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <InterfaceDefinition Include="MainInterface.storyboard" />
+    <InterfaceDefinition Include="MainInterface.storyboard">
+      <SubType>Designer</SubType>
+    </InterfaceDefinition>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

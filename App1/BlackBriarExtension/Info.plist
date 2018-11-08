@@ -23,13 +23,13 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>MinimumOSVersion</key>
-	<string>12.0</string>
+	<string>11.4</string>
 	<key>NSExtension</key>
 	<dict>
-		<key>NSExtensionMainStoryboard</key>
-		<string>MainInterface</string>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.widget-extension</string>
+		<key>NSExtensionMainStoryboard</key>
+		<string>TodayViewController</string>
 	</dict>
 </dict>
 </plist>
