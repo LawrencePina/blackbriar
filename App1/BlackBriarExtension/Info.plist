@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>BlackBriarExtension</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.BlackBriarExtension</string>
+	<string>com.companyname.App1.BlackBriarExtension</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
