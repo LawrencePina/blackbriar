@@ -7,7 +7,7 @@ using UIKit;
 
 namespace BlackBriarExtension
 {
-
+  
     public partial class TodayViewController : SLComposeServiceViewController, INCWidgetProviding
     {
         public TodayViewController(IntPtr handle) : base(handle)

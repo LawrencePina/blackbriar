@@ -15,12 +15,12 @@ namespace App1.Services
             items = new List<Item>();
             var mockItems = new List<Item>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "ARC 3 item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "AM Radio item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Alpha Male Strategies", Description="Are you a sleazeball?" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "AM1", Description="The sound of Oakland" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Angryman", Description="Witness the power" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Obsidian Radio", Description="The voice of the everyday brother" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Kevin Samuels", Description="Become a modern day savage." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "BGS IBMOR", Description="It is what it is." },
             };
 
             foreach (var item in mockItems)
