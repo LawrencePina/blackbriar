@@ -123,7 +123,10 @@
     <BundleResource Include="Resources\xamarin_logo.png" />
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
-    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\logo_splash_screen.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logo_splash_screen.imageset\Icon.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -137,8 +140,11 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{29A54B3B-C4D7-4A18-BD1C-CF1750977FBD}</Project>
+      <Project>{A3396919-ACEE-4A02-AE55-B3A6900EE20E}</Project>
       <Name>App1</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\logo_splash_screen.imageset\" />
   </ItemGroup>
 </Project>
