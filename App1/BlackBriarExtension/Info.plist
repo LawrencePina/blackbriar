@@ -12,8 +12,6 @@
 	<string>com.companyname.App1.BlackBriarExtension</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>com.your-company.BlackBriarExtension</string>
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
@@ -31,5 +29,7 @@
 		<key>NSExtensionMainStoryboard</key>
 		<string>TodayViewController</string>
 	</dict>
+	<key>CFBundleName</key>
+	<string>com.your-company.App1.BlackBriarExtension</string>
 </dict>
 </plist>
