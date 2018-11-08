@@ -15,7 +15,7 @@ namespace App1.Services
             items = new List<Item>();
             var mockItems = new List<Item>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "ARC 1item", Description="This is an item description." },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "ARC 3 item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "AM Radio item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
